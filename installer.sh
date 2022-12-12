@@ -13,7 +13,6 @@
 PACKAGE_DIR='Xtraevent/main'
 
 MY_IPK="enigma2-plugin-extensions-xtraevent_v3.3_all.ipk"
-MY_DEB=""
 
 ########################################################################################################################
 # Auto ... Do not change
@@ -22,9 +21,6 @@ MY_DEB=""
 # Decide : which package ?
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 if which dpkg > /dev/null 2>&1; then
-	MY_FILE=$MY_DEB
-	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
-else
 	MY_FILE=$MY_IPK
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_IPK
 fi
