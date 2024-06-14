@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "successfully installed!"
+
+
+# Receiver neustarten:
+#reboot
+
+wget -q -O - http://localhost/web/powerstate?newstate=3

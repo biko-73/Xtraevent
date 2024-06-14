@@ -1,0 +1,11 @@
+#!/bin/sh
+#prerm: Ein Shell Script welches vor Entfernen des Paketes ausgeführt wird
+
+
+
+
+echo "                              "
+echo "   is now being removed...    "
+echo "                              "
+
+exit 0

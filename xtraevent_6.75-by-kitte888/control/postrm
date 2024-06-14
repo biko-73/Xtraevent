@@ -1,0 +1,31 @@
+#!/bin/sh
+#postrm: Ein Shell Script welches nach Entfernen des Paketes ausgeführt wird
+
+
+
+
+##########
+
+
+
+
+
+
+echo "                                  "
+echo "       is now being removed...    "
+echo "                                  "
+
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent
+
+rm -rf /usr/lib/enigma2/python/Components/Converter/xtra*
+rm -rf /usr/lib/enigma2/python/Components/Renderer/xtra*
+sleep 5
+
+echo ""
+echo ""
+echo ""
+echo " removed! You should restart GUI now!"
+echo ""
+
+
+exit 0
