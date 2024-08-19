@@ -12,7 +12,7 @@
 
 PACKAGE_DIR='Xtraevent/main'
 
-MY_IPK="enigma2-plugin-extensions-xtraevent_v5.3.ipk"
+MY_IPK="enigma2-plugin-extensions-xtraevent_v5.3_all.ipk"
 MY_DEB=""
 
 ########################################################################################################################
